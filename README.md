@@ -8,7 +8,7 @@ For more details, check our paper: *Representing Meaning with a Combination of L
 
 Download
 ----------------
-The releases of this dataset can be downloaded from here: https://github.com/islambeltagy/rrr/releases
+The releases of this dataset can be downloaded from here: https://github.com/ibeltagy/rrr/releases
 
 
 Cite
@@ -64,6 +64,6 @@ Notes and Future Work
 
 - Few rules are wrong because of parsing errors and limitations in our Robinson Resolution algorithm
 
-- Some rules are duplicated. Few rules (around 100) are duplicated with different rule types. This is because of inconsistencies in the annotations of the SICK dataset (remember that most of the rules are automatically annotated using the gold standard annotation for the pair where the rule is extracted from). For example, the relation between "flute" and "guitar" could be Entail but in most cases it is Neutra.
+- Some rules are duplicated. Few rules (around 100) are duplicated with different rule types. This is because of inconsistencies in the annotations of the SICK dataset (remember that most of the rules are automatically annotated using the gold standard annotation for the pair where the rule is extracted from). For example, the relation between "flute" and "guitar" could be Entail but in most cases it is Neutral.
 
 - Some rules are long and they can be split into multiple shorter and simpler rules. We leave that for future releases. 
