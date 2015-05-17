@@ -33,8 +33,7 @@ Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US)
 
 Contents
 ----------------
-The rules are split into a training and testing sets, extracted from the training and testing parts of SICK respectively. 
-Each file has more than 6,200 rules. Rules have three types, Entail, Neutral and Contradict. 
+The dataset has 12,508 rules, 10,211 are unique. Rules are split into training and testing, extracted from the training and testing parts of SICK respectively. Rules have three types, Entail, Neutral and Contradict. 
 
 
 Files format
@@ -47,7 +46,7 @@ Each file has the following columns:
 
 - annotation: rule types: 1, 0 and -1 for Entail, Neutral and Contradict
 
-- ruleLhs: the LHS of the rule. Each word is followed with *-i* where *i* is the index of the word in the source sentence
+- ruleLhs: the LHS of the rule. Each word is followed with **-i** where **i** is the index of the word in the source sentence
 
 - ruleRhs: the RHS of the rule
 
@@ -59,3 +58,12 @@ Each file has the following columns:
 Notes and Future Work 
 ----------------
 
+- Some words are dropped from the rules, like {a, an, the, is, are, and}
+
+- Words in a rule are not necessery consecutive in the sentence, but most porbably connected syntactically
+
+- Few rules are wrong because of parsing errors and limitations in our Robinson Resolution algorithm
+
+- Some rules are duplicated. Few rules (around 100) are duplicated with different rule types. This is because of inconsistencies in the annotations of the SICK dataset (remember that most of the rules are automatically annotated using the gold standard annotation for the pair where the rule is extracted from). For example, the relation between "flute" and "guitar" could be Entail but in most cases it is Neutra.
+
+- Some rules are long and they can be split into multiple shorter and simpler rules. We leave that for future releases. 
