@@ -20,10 +20,9 @@ If you use this dataset in your work, please cite our paper:
     author = {Islam Beltagy and Stephen Roller and Pengxiang Cheng and Katrin Erk and Raymond J. Mooney}, 
     year={2015}, 
     archivePrefix = {arXiv},
-    eprint        = {????.????},
-    primaryClass  = {???-??}
+    eprint        = {1505.0681},
+    primaryClass  = {cs-CL}
     }
-
 
 License
 ----------------
