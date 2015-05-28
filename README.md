@@ -15,13 +15,12 @@ Cite
 ----------------
 If you use this dataset in your work, please cite our paper: 
 
-    @article{beltagy:cl15, 
+    @article{beltagy:arxiv15, 
     title = {Representing Meaning with a Combination of Logical Form and Vectors}, 
     author = {Islam Beltagy and Stephen Roller and Pengxiang Cheng and Katrin Erk and Raymond J. Mooney}, 
-    year={2015}, 
-    archivePrefix = {arXiv},
-    eprint        = {1505.0681},
-    primaryClass  = {cs-CL}
+    journal={arXiv preprint arXiv:1505.06816 [cs.CL]},
+    url="http://www.cs.utexas.edu/users/ai-lab/pub-view.php?PubID=127513",
+    year={2015}
     }
 
 License
