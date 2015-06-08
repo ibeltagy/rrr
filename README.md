@@ -58,7 +58,7 @@ Notes and Future Work
 
 - Some words are dropped from the rules, like {a, an, the, is, are, and}
 
-- Words in a rule are not necessery consecutive in the sentence, but most porbably connected syntactically
+- Words in a rule are not necessary consecutive in the sentence, but most porbably connected syntactically
 
 - Few rules are wrong because of parsing errors and limitations in our Robinson Resolution algorithm
 
